@@ -1,0 +1,288 @@
+@media(max-width: 1200px){.left-div{
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bg-img{
+    width: 80%;
+    margin-left: 10%;
+}
+.read-about-div{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+
+.section2-h5{
+    margin-top: 20px;
+}
+
+.click{
+    padding-top: 30px;
+}
+.section2-text-div{
+    height: auto;
+}
+
+.section3-text-div{
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.icon-boxes{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.wordp{
+    font-size: 14px;
+}
+
+.section-4-divs{
+    width: 90%;
+    height: auto;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.section-4-boxes{
+    margin: 20px;
+}
+
+.section-4-boxes-or{
+    margin: 20px;
+}
+
+.section5-text-div{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.section5-nav{
+    width: 90%;     
+}
+.section-5-divs{
+    width: 90%;
+    margin: 0 auto;
+}
+.img-div{
+   margin: 0 auto;
+}
+}
+
+
+@media(max-width: 1088px){
+    .burger-bar{
+        display: flex;
+        color: white;
+    }
+
+    .nav-ul{display: none;
+    }
+
+    .left-div{
+        width: 80%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bg-img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .read-about-div{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .section2-h5{
+        margin-top: 20px;
+    }
+
+    .click{
+        padding-top: 30px;
+    }
+    .section2-text-div{
+        height: auto;
+    }
+
+    .section3-text-div{
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .icon-boxes{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .wordp{
+        font-size: 14px;
+    }
+
+    .section-4-divs{
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .section-4-boxes{
+        margin: 20px;
+    }
+
+    .section-4-boxes-or{
+        margin: 20px;
+    }
+
+    .section5-text-div{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+    .section5-nav{
+        width: 80%;         
+    }
+
+    .section-5-divs{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .img-div{
+       margin: 0 auto;
+    }
+}
+
+@media(max-width: 931px){
+    .section5-text-div{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 200px;
+        font-size: 20px;
+    }
+
+    .section-4{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        justify-content: center;
+    }
+
+    .section-5-divs{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .img-div{
+       margin: 0 auto;
+    }
+}
+
+@media(max-width: 790px){
+    .icon-boxes{
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 190px;
+    }  
+}
+
+
+@media(max-width: 719px){
+ 
+    .section-4-divs{
+        background: yellow;
+    }
+    .section-4-boxes{
+        flex-wrap: wrap;
+        width: 45%;
+    }
+    .section-4-boxes-or{
+        flex-wrap: wrap;
+        width: 45%;
+    }
+
+    .click{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+      .My-Work{
+       margin-top: 20px;
+    }
+
+      .burger-bar{
+       display: flex;
+       color: white;
+       margin-left: 10px;
+    }
+
+    .section5-text-div{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 700px;
+        font-size: 20px;
+    }
+
+    .section-6-text{
+        width: 80%;
+        height: auto;
+    }
+
+    .section-5-divs{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .img-div{
+       margin: 0 auto;
+    }
+    
+}
+
+@media(max-width: 488px){
+    .icon-boxes{
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+
+    .sed-ut{
+        margin-top: 30px;     
+        font-size: 14px;  
+    }
+
+    .section5-nav{
+        width: 80%;
+        font-size: 10px;         
+    }
+    .section5-text-div{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 700px;
+        font-size: 20px;
+    }
+}
