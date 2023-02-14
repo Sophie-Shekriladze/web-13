@@ -206,12 +206,7 @@
     }  
 }
 
-
-@media(max-width: 719px){
- 
-    .section-4-divs{
-        background: yellow;
-    }
+@media(max-width: 719px){ 
     .section-4-boxes{
         flex-wrap: wrap;
         width: 45%;

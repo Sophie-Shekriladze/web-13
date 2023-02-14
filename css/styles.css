@@ -521,3 +521,140 @@ body{
     align-items: center; 
     justify-content: center;
 }
+
+.contact{
+    width: 425px;
+    height: 570px;
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fa-phone-volume{
+    color: white;
+}
+
+.call{
+    width: 49px;
+    height: 49px;
+    background: #000000;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.call-me{
+    width: 280px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.call-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 57px;
+    height: auto;
+}
+
+.first-text{
+    color: #6B6B6B;
+    font-size: 18px;
+}
+
+.find-me{
+    font-size: 30px;
+    color: white;
+}
+
+.contact-us{
+    font-size: 40px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 425px;
+    height: 83px;
+    background: #FF4900;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 241px;
+    height: 83px;
+    background: #FF4900;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.submit-box{
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: white;
+}
+
+.form-elements{
+    max-width: 620px;
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forms{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forms-div{
+    width: 300px;
+    border-radius: 5px;
+    height: 70px;
+    border: 0.5px solid #333333;
+}
+
+.textarea{
+    border: 0.5px solid #333333;
+    max-width: 620px;
+    width: 100%;
+    height: 160px;
+    background: black;
+    border-radius: 5px;
+}
+
+.input-box{
+    border: none;
+    background: none;
+}
+
+.input-box::placeholder{
+    font-size: 14px;
+    margin: 0 auto;
+}
