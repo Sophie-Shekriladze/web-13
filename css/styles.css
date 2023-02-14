@@ -1,3 +1,7 @@
+:root{
+    --box-background:  #FF4900;
+}
+
 .navigation-block{
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@
 .about-div{
     width: 119px;
     height: 119px;
-    background: #FF4900;
+    background: var(--box-background);
     position: relative;
 }
 
@@ -39,7 +43,7 @@
 .hire-div{
     width: 148px;
     height: 67px;
-    background: #FF4900;
+    background: var( --box-background);
     border-radius: 10px;
     justify-content: center;
     display: flex;
@@ -61,7 +65,7 @@
 .hello{
     width: 199px;
     height: 64px;
-    background: #FF4900;
+    background: var(--box-background);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +74,7 @@
 }
 .hello::after{
     content: '\25BC';
-    color: #FF4900;
+    color: var(--box-background);
     margin-top: 82px;
     font-size: 30px;    
 }
@@ -101,7 +105,7 @@
 .download{
     width: 241px;
     height: 83px;
-    background: #FF4900;
+    background: var(--box-background);
     border-radius: 10px;
     display: flex;  
     align-items: center; 
@@ -241,7 +245,7 @@ body{
 }
 
 .fa-arrow-right-long{
-    color: #FF4900;
+    color: var(--box-background);
     font-size: 20px;
 }
 
@@ -293,7 +297,7 @@ body{
 .View-All{
     width: 200px;
     height: 53px;
-    background: #FF4900;
+    background: var(--box-background);
     border-radius: 10px;
     display: flex;  
     align-items: center; 
@@ -314,7 +318,7 @@ body{
     padding: 15px;
     width: 342px;
     height: 90px;
-    background: #FF4900;
+    background: var(--box-background);
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -351,7 +355,7 @@ body{
 .section-4-boxes-or{
     width: 280px;
     height: 220px;
-    background: #FF4900;
+    background: var(--box-background);
     /* border: 1px dashed white; */
     align-items: center;
     text-align: center;
@@ -430,7 +434,7 @@ body{
 }
 
 .one-li{
-    color: #FF4900;
+    color: var(--box-background);
 }
 
 .one-a{
@@ -441,7 +445,7 @@ body{
     content: '';
     height: 1px;
     width: 0px;
-    background-color: #FF4900;
+    background-color: var(--box-background);
     position: absolute;
     left: 0;
     bottom: 0; 
@@ -515,7 +519,7 @@ body{
 .sec-6-hire{
     width: 241px;
     height: 83px;
-    background: #FF4900;
+    background: var(--box-background);
     border-radius: 10px;
     display: flex;  
     align-items: center; 
@@ -583,7 +587,7 @@ body{
     align-items: center;
     width: 425px;
     height: 83px;
-    background: #FF4900;
+    background: var(--box-background);
     border-radius: 5px;
     font-size: 20px;
 }
@@ -594,7 +598,7 @@ body{
     align-items: center;
     width: 241px;
     height: 83px;
-    background: #FF4900;
+    background: var(--box-background);
     border-radius: 5px;
     font-size: 25px;
 }
@@ -633,8 +637,18 @@ body{
     align-items: center;
 }
 
+.call-div{
+    width: 80%;
+}
+
+.orm-elements{
+    flex-wrap: wrap;
+    width: 80%;
+}
+
 .forms-div{
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     border-radius: 5px;
     height: 70px;
     border: 0.5px solid #333333;
@@ -657,4 +671,11 @@ body{
 .input-box::placeholder{
     font-size: 14px;
     margin: 0 auto;
+}
+
+.budget-celect{
+    border: none;
+    background: none;
+    color: #707070;
+ 
 }
